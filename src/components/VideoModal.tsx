@@ -27,10 +27,10 @@ export const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose, onEnqui
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-30 w-8 h-8 rounded-full bg-[#0A0A09]/70 border border-white/20 flex items-center justify-center text-[#F2EEE7] hover:border-[#B49A78] hover:text-[#B49A78] transition-colors"
+          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-30 w-10 h-10 sm:w-8 sm:h-8 rounded-full bg-[#0A0A09]/70 border border-white/20 flex items-center justify-center text-[#F2EEE7] hover:border-[#B49A78] hover:text-[#B49A78] transition-colors active:scale-95"
           aria-label="Close film"
         >
-          <X size={16} />
+          <X size={17} />
         </button>
 
         {/* Cinematic Video Player Stage */}

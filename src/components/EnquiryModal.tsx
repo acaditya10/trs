@@ -72,7 +72,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
         <button
           id="enquiry-modal-close"
           onClick={onClose}
-          className="absolute top-4 sm:top-5 right-4 sm:right-5 w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-[#F2EEE7] hover:border-[#B49A78] hover:text-[#B49A78] transition-colors z-10 active:scale-95"
+          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 w-10 h-10 sm:w-9 sm:h-9 rounded-full bg-[#0A0A09]/70 border border-white/20 flex items-center justify-center text-[#F2EEE7] hover:border-[#B49A78] hover:text-[#B49A78] transition-colors active:scale-95"
           aria-label="Close modal"
         >
           <X size={17} />
@@ -99,7 +99,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
 
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
               <a
-                href={`https://wa.me/919876543210?text=Hello%20The%20Ram%20Sham%20Production%2C%20this%20is%20${encodeURIComponent(
+                href={`https://wa.me/919818033484?text=Hello%20The%20Ram%20Sham%20Production%2C%20this%20is%20${encodeURIComponent(
                   formData.fullName
                 )}.%20We%20just%20submitted%20an%20enquiry%20for%20our%20wedding%20on%20${encodeURIComponent(
                   formData.weddingDate || 'upcoming date'

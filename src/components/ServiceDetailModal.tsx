@@ -28,10 +28,10 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
       >
         <button
           onClick={onClose}
-          className="absolute top-5 right-5 w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-[#F2EEE7] hover:border-[#B49A78] hover:text-[#B49A78] transition-colors"
+          className="absolute top-4 right-4 sm:top-5 sm:right-5 z-20 w-10 h-10 sm:w-8 sm:h-8 rounded-full bg-[#0A0A09]/70 border border-white/20 flex items-center justify-center text-[#F2EEE7] hover:border-[#B49A78] hover:text-[#B49A78] transition-colors active:scale-95"
           aria-label="Close modal"
         >
-          <X size={16} />
+          <X size={17} />
         </button>
 
         <div className="text-left space-y-6">
