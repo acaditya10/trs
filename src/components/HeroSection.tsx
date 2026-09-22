@@ -66,9 +66,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEnquiry, onViewS
             }}
           />
           {/* Subtle cinematic editorial dark gradient overlays for guaranteed text legibility */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A09] via-[#0A0A09]/80 sm:via-[#0A0A09]/65 md:via-[#0A0A09]/55 to-transparent z-10" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09] via-[#0A0A09]/30 to-[#0A0A09]/60 z-10" />
-          <div className="absolute inset-0 bg-[#0A0A09]/20 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A09] via-[#0A0A09]/90 sm:via-[#0A0A09]/80 md:via-[#0A0A09]/70 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09] via-[#0A0A09]/50 to-[#0A0A09]/75 z-10" />
+          <div className="absolute inset-0 bg-[#0A0A09]/35 z-10" />
         </div>
       ))}
 
