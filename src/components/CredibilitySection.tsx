@@ -6,17 +6,17 @@ export const CredibilitySection: React.FC = () => {
       id="credibility"
       className="relative w-full py-20 md:py-28 bg-[#F2EEE7] text-[#0A0A09] border-t border-[#0A0A09]/10"
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 md:px-12 text-center">
         {/* Small Eyebrow Label */}
         <span
           id="credibility-label"
-          className="font-sans text-[11px] tracking-[0.32em] uppercase text-[#77736D] font-medium block mb-12 md:mb-16"
+          className="font-sans text-[11px] tracking-[0.32em] uppercase text-[#77736D] font-medium block mb-10 sm:mb-12 md:mb-16"
         >
           Years Of Stories
         </span>
 
         {/* 3 Metric Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-0">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 md:gap-0">
           {/* Metric 1 */}
           <div className="flex flex-col items-center justify-center md:border-r border-[#0A0A09]/10 px-6">
             <span

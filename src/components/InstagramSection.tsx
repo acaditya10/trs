@@ -8,9 +8,9 @@ export const InstagramSection: React.FC = () => {
       id="instagram"
       className="relative w-full py-20 md:py-28 bg-[#F2EEE7] text-[#0A0A09] border-t border-[#0A0A09]/10"
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 md:px-12">
         {/* Section Header */}
-        <div className="flex items-end justify-between mb-10 md:mb-14 pb-5 border-b border-[#0A0A09]/10">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 sm:mb-10 md:mb-14 pb-5 border-b border-[#0A0A09]/10 gap-3">
           <h2
             id="instagram-heading"
             className="font-serif text-2xl sm:text-3xl md:text-4xl font-light tracking-[0.08em] uppercase text-[#0A0A09]"

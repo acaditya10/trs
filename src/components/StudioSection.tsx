@@ -18,7 +18,7 @@ export const StudioSection: React.FC<StudioSectionProps> = ({ onMeetTeam }) => {
           <div className="lg:col-span-6">
             <div className="relative overflow-hidden aspect-[4/3] md:aspect-[5/3.8] bg-[#0A0A09] shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85"
+                src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=1200&q=85"
                 alt="The Ram Sham Production team of professional wedding photographers and cinematographers with cameras"
                 className="w-full h-full object-cover object-center filter grayscale contrast-115 hover:scale-102 transition-transform duration-700"
                 loading="lazy"

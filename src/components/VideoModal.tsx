@@ -36,7 +36,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose, onEnqui
         {/* Cinematic Video Player Stage */}
         <div className="relative aspect-[16/9] w-full bg-black flex items-center justify-center overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1600&q=85"
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=85"
             alt="Wedding Film Cinematic Starlight Reel"
             className={`w-full h-full object-cover transition-all duration-1000 ${
               isPlaying ? 'scale-105 filter brightness-95' : 'scale-100 filter brightness-75'

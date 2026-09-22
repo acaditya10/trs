@@ -18,7 +18,7 @@ export const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({ onStartEnquiry
           <div className="lg:col-span-6">
             <div className="relative overflow-hidden aspect-[4/3] sm:aspect-[16/11] bg-[#141412] shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1400&q=85"
+                src="https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?auto=format&fit=crop&w=1400&q=85"
                 alt="Newlywed Indian bride and groom facing each other with deep warmth and emotion"
                 className="w-full h-full object-cover object-[65%_30%] filter brightness-90 contrast-105 hover:scale-102 transition-transform duration-700"
                 loading="lazy"

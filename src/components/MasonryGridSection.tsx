@@ -17,9 +17,9 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
       id="from-the-stories"
       className="relative w-full py-24 md:py-32 bg-[#F2EEE7] text-[#0A0A09]"
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 md:px-12">
         {/* Section Header */}
-        <div className="flex items-end justify-between mb-12 md:mb-16 pb-6 border-b border-[#0A0A09]/10">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 sm:mb-12 md:mb-16 pb-5 sm:pb-6 border-b border-[#0A0A09]/10 gap-3">
           <h2
             id="from-the-stories-heading"
             className="font-serif text-3xl sm:text-4xl md:text-5xl font-light tracking-[0.08em] uppercase text-[#0A0A09]"
@@ -41,9 +41,9 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
         </div>
 
         {/* Asymmetrical Editorial Magazine Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-4 md:gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-12 gap-3 sm:gap-4 md:gap-5">
           {/* Column 1 (Left): 2 stacked images (Span 3 on desktop) */}
-          <div className="lg:col-span-3 flex flex-col gap-4 md:gap-5">
+          <div className="lg:col-span-3 flex flex-col gap-3 sm:gap-4 md:gap-5">
             {/* Image A: Extreme close-up bridal portrait */}
             <div
               id="photo-masonry-a"
@@ -56,11 +56,11 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
                 className="w-full h-full object-cover object-[50%_35%] filter brightness-95 group-hover:scale-104 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0A0A09]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                <span className="text-[#F2EEE7] font-serif text-lg tracking-wider">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09]/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 sm:p-5">
+                <span className="text-[#F2EEE7] font-serif text-sm sm:text-lg tracking-wider">
                   {MASONRY_PHOTOS[0].title}
                 </span>
-                <Maximize2 size={16} className="text-[#B49A78] ml-auto" />
+                <Maximize2 size={14} className="text-[#B49A78] ml-auto hidden sm:block" />
               </div>
             </div>
 
@@ -76,17 +76,17 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
                 className="w-full h-full object-cover object-center filter brightness-95 group-hover:scale-104 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0A0A09]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                <span className="text-[#F2EEE7] font-serif text-lg tracking-wider">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09]/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 sm:p-5">
+                <span className="text-[#F2EEE7] font-serif text-sm sm:text-lg tracking-wider">
                   {MASONRY_PHOTOS[5].title}
                 </span>
-                <Maximize2 size={16} className="text-[#B49A78] ml-auto" />
+                <Maximize2 size={14} className="text-[#B49A78] ml-auto hidden sm:block" />
               </div>
             </div>
           </div>
 
           {/* Column 2: B&W couple & Mandap (Span 3 on desktop) */}
-          <div className="lg:col-span-3 flex flex-col gap-4 md:gap-5">
+          <div className="lg:col-span-3 flex flex-col gap-3 sm:gap-4 md:gap-5">
             {/* Image B: B&W intimate couple portrait */}
             <div
               id="photo-masonry-b"
@@ -99,11 +99,11 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
                 className="w-full h-full object-cover object-center filter grayscale contrast-110 group-hover:scale-104 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0A0A09]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                <span className="text-[#F2EEE7] font-serif text-lg tracking-wider">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09]/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 sm:p-5">
+                <span className="text-[#F2EEE7] font-serif text-sm sm:text-lg tracking-wider">
                   {MASONRY_PHOTOS[1].title}
                 </span>
-                <Maximize2 size={16} className="text-[#B49A78] ml-auto" />
+                <Maximize2 size={14} className="text-[#B49A78] ml-auto hidden sm:block" />
               </div>
             </div>
 
@@ -119,19 +119,19 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
                 className="w-full h-full object-cover object-center filter brightness-95 group-hover:scale-104 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0A0A09]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                <span className="text-[#F2EEE7] font-serif text-lg tracking-wider">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09]/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 sm:p-5">
+                <span className="text-[#F2EEE7] font-serif text-sm sm:text-lg tracking-wider">
                   {MASONRY_PHOTOS[8].title}
                 </span>
-                <Maximize2 size={16} className="text-[#B49A78] ml-auto" />
+                <Maximize2 size={14} className="text-[#B49A78] ml-auto hidden sm:block" />
               </div>
             </div>
           </div>
 
           {/* Column 3 (Center-Right): Split row + Wide Sunset fort (Span 3.5 on desktop) */}
-          <div className="lg:col-span-3 flex flex-col gap-4 md:gap-5">
+          <div className="lg:col-span-3 flex flex-col gap-3 sm:gap-4 md:gap-5">
             {/* Top row split: Image C (Aisle) & Image D (Baraat) */}
-            <div className="grid grid-cols-2 gap-3 md:gap-4 aspect-[3/2.2]">
+            <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 aspect-[3/2.2]">
               <div
                 id="photo-masonry-c"
                 onClick={() => onPhotoClick(MASONRY_PHOTOS[2])}
@@ -171,17 +171,17 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
                 className="w-full h-full object-cover object-[50%_40%] group-hover:scale-104 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0A0A09]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                <span className="text-[#F2EEE7] font-serif text-lg tracking-wider">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09]/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 sm:p-5">
+                <span className="text-[#F2EEE7] font-serif text-sm sm:text-lg tracking-wider">
                   {MASONRY_PHOTOS[6].title}
                 </span>
-                <Maximize2 size={16} className="text-[#B49A78] ml-auto" />
+                <Maximize2 size={14} className="text-[#B49A78] ml-auto hidden sm:block" />
               </div>
             </div>
           </div>
 
           {/* Column 4 (Right): Reception dance & Emotional bride (Span 2.5 on desktop) */}
-          <div className="lg:col-span-3 flex flex-col gap-4 md:gap-5">
+          <div className="lg:col-span-3 flex flex-col gap-3 sm:gap-4 md:gap-5">
             {/* Image E: Sangeet Symphony / Reception */}
             <div
               id="photo-masonry-e"
@@ -194,8 +194,8 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
                 className="w-full h-full object-cover object-center group-hover:scale-104 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0A0A09]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                <span className="text-[#F2EEE7] font-serif text-base tracking-wider">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09]/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 sm:p-4">
+                <span className="text-[#F2EEE7] font-serif text-sm sm:text-base tracking-wider">
                   {MASONRY_PHOTOS[4].title}
                 </span>
               </div>
@@ -213,11 +213,11 @@ export const MasonryGridSection: React.FC<MasonryGridSectionProps> = ({
                 className="w-full h-full object-cover object-[50%_25%] filter grayscale contrast-110 group-hover:scale-104 transition-transform duration-700"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0A0A09]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
-                <span className="text-[#F2EEE7] font-serif text-lg tracking-wider">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A09]/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 sm:p-5">
+                <span className="text-[#F2EEE7] font-serif text-sm sm:text-lg tracking-wider">
                   {MASONRY_PHOTOS[7].title}
                 </span>
-                <Maximize2 size={16} className="text-[#B49A78] ml-auto" />
+                <Maximize2 size={14} className="text-[#B49A78] ml-auto hidden sm:block" />
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ export const FilmBreakSection: React.FC<FilmBreakSectionProps> = ({ onWatchFilm 
       {/* Background Cinematic Still */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=2200&q=85"
+          src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2200&q=85"
           alt="Cinematic Indian wedding couple beneath grand hanging floral canopy of starlight"
           className="w-full h-full object-cover object-center filter brightness-[0.7] contrast-105 scale-100 hover:scale-105 transition-transform duration-[12000ms] ease-out"
         />
