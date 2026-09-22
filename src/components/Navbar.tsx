@@ -99,7 +99,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           {/* Desktop Right CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://wa.me/919818033484?text=Hello%20The%20Ram%20Sham%20Production%2C%20I%20would%20like%20to%20enquire%20about%20wedding%20photography%20dates."
+              href="https://wa.me/919818044384?text=Hello%20The%20Ram%20Sham%20Production%2C%20I%20would%20like%20to%20enquire%20about%20wedding%20photography%20dates."
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#F2EEE7]/70 hover:text-[#25D366] transition-colors p-2"
@@ -120,7 +120,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           {/* Mobile Right Controls: WhatsApp Icon + Quick Enquire + Hamburger */}
           <div className="md:hidden flex items-center space-x-2 sm:space-x-3">
             <a
-              href="https://wa.me/919818033484?text=Hello%20The%20Ram%20Sham%20Production%2C%20I%20would%20like%20to%20enquire%20about%20wedding%20photography%20dates."
+              href="https://wa.me/919818044384?text=Hello%20The%20Ram%20Sham%20Production%2C%20I%20would%20like%20to%20enquire%20about%20wedding%20photography%20dates."
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-full bg-[#25D366]/15 text-[#25D366] border border-[#25D366]/30 flex items-center justify-center active:scale-95 transition-transform"
@@ -184,7 +184,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           <div className="flex flex-col space-y-4 pt-6 border-t border-white/10 mt-6">
             <div className="grid grid-cols-2 gap-3">
               <a
-                href="https://wa.me/919818033484?text=Hello%20The%20Ram%20Sham%20Production%2C%20we%20are%20planning%20our%20wedding%20and%20would%20love%20to%20discuss%20dates%20and%20coverage."
+                href="https://wa.me/919818044384?text=Hello%20The%20Ram%20Sham%20Production%2C%20we%20are%20planning%20our%20wedding%20and%20would%20love%20to%20discuss%20dates%20and%20coverage."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 py-3 bg-[#25D366]/15 border border-[#25D366]/30 text-[#25D366] text-xs font-sans font-medium tracking-wider uppercase min-h-[44px]"
@@ -194,7 +194,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               </a>
 
               <a
-                href="tel:+919818033484"
+                href="tel:+919818044384"
                 className="flex items-center justify-center space-x-2 py-3 bg-white/5 border border-white/15 text-[#F2EEE7] text-xs font-sans font-medium tracking-wider uppercase min-h-[44px]"
               >
                 <Phone size={15} className="text-[#B49A78]" />

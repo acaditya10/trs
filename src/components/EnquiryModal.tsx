@@ -99,7 +99,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
 
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
               <a
-                href={`https://wa.me/919818033484?text=Hello%20The%20Ram%20Sham%20Production%2C%20this%20is%20${encodeURIComponent(
+                href={`https://wa.me/919818044384?text=Hello%20The%20Ram%20Sham%20Production%2C%20this%20is%20${encodeURIComponent(
                   formData.fullName
                 )}.%20We%20just%20submitted%20an%20enquiry%20for%20our%20wedding%20on%20${encodeURIComponent(
                   formData.weddingDate || 'upcoming date'

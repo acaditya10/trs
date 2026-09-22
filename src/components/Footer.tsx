@@ -48,7 +48,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
             <span className="text-white/20 hidden sm:inline">·</span>
             <a
               id="footer-whatsapp"
-              href="https://wa.me/919818033484?text=Hello%20The%20Ram%20Sham%20Production%2C%20we%20are%20planning%20our%20wedding%20and%20would%20love%20to%20discuss%20dates%20and%20coverage."
+              href="https://wa.me/919818044384?text=Hello%20The%20Ram%20Sham%20Production%2C%20we%20are%20planning%20our%20wedding%20and%20would%20love%20to%20discuss%20dates%20and%20coverage."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1.5 hover:text-[#25D366] transition-colors py-1"
